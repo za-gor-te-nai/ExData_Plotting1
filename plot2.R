@@ -1,6 +1,3 @@
-rm(list=ls())
-graphics.off()
-
 household_cons <- read.table('new_household_cons.txt', header=T,
                              colClasses=c('character',rep('numeric',7)))
 
